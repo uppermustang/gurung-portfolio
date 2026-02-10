@@ -41,7 +41,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-20 sm:pt-0 sm:pb-0 sm:py-32 text-center flex-1 flex flex-col justify-center min-h-0">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-0 -mt-14 sm:mt-0 sm:pt-0 pb-20 sm:pb-0 sm:py-32 text-center flex-1 flex flex-col justify-center min-h-0">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
@@ -156,7 +156,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.4 }}
-        className="absolute bottom-3 sm:bottom-8 left-1/2 -translate-x-1/2 z-20 pointer-events-auto flex-shrink-0"
+        className="absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2 z-20 pointer-events-auto flex-shrink-0"
       >
         <motion.button
           onClick={() => scrollToSection('#about')}
