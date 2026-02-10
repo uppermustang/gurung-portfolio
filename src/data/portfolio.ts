@@ -121,7 +121,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Professional portrait photography showcasing diverse subjects.',
     category: 'photography',
     image: 'https://placehold.co/800x600/C9E4DE/2d4a42?text=Portrait+Series&font=poppins',
-    techStack: ['Portrait Photography', 'Adobe Photoshop'],
+    techStack: ['Portrait Photography', 'Adobe Photoshop', 'Lightroom Classic'],
   },
   {
     id: '8',
