@@ -47,8 +47,8 @@ export default function Navbar() {
           </a>
 
           {/* Desktop nav */}
-          <div className="hidden lg:flex items-center gap-8">
-            {navLinks.map((link) => (
+          <div className="hidden lg:flex items-center gap-6">
+            {navLinks.slice(0, -1).map((link) => (
               <a
                 key={link.href}
                 href={link.href}
@@ -58,6 +58,13 @@ export default function Navbar() {
                 {link.label}
               </a>
             ))}
+            <a
+              href="#contact"
+              onClick={(e) => handleNavClick(e, '#contact')}
+              className="text-base font-semibold px-5 py-2.5 rounded-lg bg-primary-500 text-white hover:bg-primary-400 transition-colors"
+            >
+              Hire Me
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -89,7 +96,7 @@ export default function Navbar() {
             className="lg:hidden border-t bg-gray-900/98 border-gray-800"
           >
             <div className="px-4 py-4 space-y-2">
-              {navLinks.map((link) => (
+              {navLinks.slice(0, -1).map((link) => (
                 <a
                   key={link.href}
                   href={link.href}
@@ -99,6 +106,13 @@ export default function Navbar() {
                   {link.label}
                 </a>
               ))}
+              <a
+                href="#contact"
+                onClick={(e) => handleNavClick(e, '#contact')}
+                className="block w-full text-center py-3 px-4 mt-2 rounded-lg bg-primary-500 text-white font-semibold hover:bg-primary-400 transition-colors"
+              >
+                Hire Me
+              </a>
             </div>
           </motion.div>
         )}
