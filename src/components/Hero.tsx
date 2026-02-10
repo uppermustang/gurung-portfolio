@@ -156,7 +156,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.4 }}
-        className="absolute bottom-12 sm:bottom-8 left-1/2 -translate-x-1/2 z-20 pointer-events-auto flex-shrink-0"
+        className="absolute bottom-[5.25rem] sm:bottom-8 left-1/2 -translate-x-1/2 z-20 pointer-events-auto flex-shrink-0"
       >
         <motion.button
           onClick={() => scrollToSection('#about')}
