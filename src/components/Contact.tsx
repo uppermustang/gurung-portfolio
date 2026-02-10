@@ -55,15 +55,15 @@ export default function Contact() {
               </a>
             </div>
 
-            <div className="mt-8 flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-gray-800 border border-gray-700 flex items-center justify-center hover:bg-gray-700 hover:border-primary-500/50 transition-colors" aria-label="LinkedIn">
-                <span className="text-gray-300">in</span>
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-gray-800 border border-gray-700 flex items-center justify-center hover:bg-gray-700 hover:border-primary-500/50 transition-colors" aria-label="Twitter">
-                <span className="text-gray-300">𝕏</span>
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-gray-800 border border-gray-700 flex items-center justify-center hover:bg-gray-700 hover:border-primary-500/50 transition-colors" aria-label="Instagram">
-                <span className="text-gray-300">📷</span>
+            <div className="mt-8">
+              <a
+                href="https://www.linkedin.com/in/da-gurung-89190284/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex w-10 h-10 rounded-full bg-gray-800 border border-gray-700 items-center justify-center hover:bg-gray-700 hover:border-primary-500/50 transition-colors"
+                aria-label="LinkedIn"
+              >
+                <span className="text-gray-300 font-semibold text-sm">in</span>
               </a>
             </div>
           </motion.div>

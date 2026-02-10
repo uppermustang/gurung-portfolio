@@ -41,12 +41,12 @@ export default function Hero() {
         />
       </div>
 
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-28 sm:pt-0 sm:pb-0 sm:py-32 text-center flex-1 flex flex-col justify-center">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-20 sm:pt-0 sm:pb-0 sm:py-32 text-center flex-1 flex flex-col justify-center min-h-0">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="space-y-6"
+          className="space-y-4 sm:space-y-6"
         >
           <motion.div
             initial={{ opacity: 0, y: 12 }}
@@ -124,12 +124,12 @@ export default function Hero() {
           </motion.div>
         </motion.div>
 
-        {/* Interactive stats */}
+        {/* Interactive stats - always 3 columns so Explore icon fits on mobile */}
         <motion.div
           initial={{ opacity: 0, y: 32 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9, duration: 0.6 }}
-          className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mt-10 sm:mt-16 max-w-4xl mx-auto flex-shrink-0"
+          className="grid grid-cols-3 gap-2 sm:gap-6 mt-6 sm:mt-16 max-w-4xl mx-auto flex-shrink-0"
         >
           {stats.map((stat, i) => (
             <motion.div
@@ -138,12 +138,12 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1 + i * 0.1, duration: 0.5 }}
               whileHover={{ scale: 1.05, y: -4 }}
-              className="group relative p-6 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm cursor-default transition-colors hover:border-primary-500/30 hover:bg-white/[0.08]"
+              className="group relative p-3 sm:p-6 rounded-xl sm:rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm cursor-default transition-colors hover:border-primary-500/30 hover:bg-white/[0.08]"
             >
-              <div className="text-3xl sm:text-4xl font-bold text-primary-400 group-hover:text-primary-300 transition-colors">
+              <div className="text-xl sm:text-4xl font-bold text-primary-400 group-hover:text-primary-300 transition-colors">
                 {stat.value}
               </div>
-              <div className="text-sm text-gray-500 mt-1 group-hover:text-gray-400 transition-colors">
+              <div className="text-[10px] sm:text-sm text-gray-500 mt-0.5 sm:mt-1 group-hover:text-gray-400 transition-colors leading-tight">
                 {stat.label}
               </div>
             </motion.div>
@@ -151,12 +151,12 @@ export default function Hero() {
         </motion.div>
       </div>
 
-      {/* Scroll indicator - clear of stats on small screens */}
+      {/* Scroll indicator - always visible in viewport on mobile */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.4 }}
-        className="absolute bottom-4 sm:bottom-8 left-1/2 -translate-x-1/2 z-20 pointer-events-auto"
+        className="absolute bottom-3 sm:bottom-8 left-1/2 -translate-x-1/2 z-20 pointer-events-auto flex-shrink-0"
       >
         <motion.button
           onClick={() => scrollToSection('#about')}
