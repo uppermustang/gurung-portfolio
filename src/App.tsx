@@ -18,7 +18,7 @@ const jsonLd = {
       '@type': 'Person',
       '@id': 'https://dawagurung.com/#person',
       name: 'Dawa Gurung',
-      jobTitle: 'Creative Director',
+      jobTitle: 'Creative Lead',
       description: 'Expert in website design, branding, and product design. UX/UI designer based in Denver, CO.',
       email: 'gurungdava@gmail.com',
       address: {
@@ -41,7 +41,7 @@ const jsonLd = {
       '@type': 'WebSite',
       '@id': 'https://dawagurung.com/#website',
       url: 'https://dawagurung.com',
-      name: 'Dawa Gurung | Creative Director',
+      name: 'Dawa Gurung | Creative Lead',
       description: 'Portfolio of Dawa Gurung, expert in UX/UI, Web Design, and Branding. Based in Denver, CO.',
       publisher: {
         '@id': 'https://dawagurung.com/#person',
@@ -54,16 +54,16 @@ export default function App() {
   return (
     <>
       <Helmet>
-        <title>Dawa Gurung | Creative Director – Website Design, Branding, Product Design</title>
+        <title>Dawa Gurung | Creative Lead – Website Design, Branding, Product Design</title>
         <meta
           name="description"
           content="Portfolio of Dawa Gurung, expert in UX/UI, Web Design, and Branding. Based in Denver, CO. Hire for creative digital solutions."
         />
         <meta
           name="keywords"
-          content="Dawa Gurung portfolio, hire Dawa Gurung, UX designer Denver, web designer Colorado, branding expert, product design, Creative Director hire"
+          content="Dawa Gurung portfolio, hire Dawa Gurung, UX designer Denver, web designer Colorado, branding expert, product design, Creative Lead hire"
         />
-        <meta property="og:title" content="Dawa Gurung | Creative Director – Website Design, Branding, Product Design" />
+        <meta property="og:title" content="Dawa Gurung | Creative Lead – Website Design, Branding, Product Design" />
         <meta property="og:description" content="Portfolio of Dawa Gurung, expert in UX/UI, Web Design, and Branding. Based in Denver, CO." />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://dawagurung.com" />

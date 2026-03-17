@@ -56,7 +56,7 @@ export default function Hero() {
           >
             <span className="w-2 h-2 rounded-full bg-primary-400 animate-pulse" />
             <span className="text-primary-300 font-medium tracking-wide text-sm uppercase">
-              Creative Director
+              Creative Lead
             </span>
           </motion.div>
 

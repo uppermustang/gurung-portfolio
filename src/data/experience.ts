@@ -12,7 +12,7 @@ export interface ExperienceEntry {
 export const experienceData: ExperienceEntry[] = [
   {
     id: "1",
-    title: "Creative Director, Web Designer & AI Prompt Architect",
+    title: "Creative Lead, Web Designer & AI Prompt Architect",
     company: "Yartung LLC",
     location: "Denver, CO",
     period: "Oct 2023 – Present",

@@ -17,7 +17,7 @@ export default function Services() {
           <p className="text-gray-400 max-w-2xl mx-auto">
             Crafting digital solutions that connect brands with audiences through creativity, 
             strategy, and precision. I integrate AI into creative workflows for innovative, 
-            efficient outcomes. Hire me as your personal Creative Director.
+            efficient outcomes. Hire me as your personal Creative Lead.
           </p>
         </motion.div>
 

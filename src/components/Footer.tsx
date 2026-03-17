@@ -26,7 +26,7 @@ export default function Footer() {
             className="text-center md:text-left"
           >
             <h3 className="text-xl font-bold text-white mb-2">Dawa Gurung</h3>
-            <p className="text-sm">Creative Director • Website Design • Branding • Product Design</p>
+            <p className="text-sm">Creative Lead • Website Design • Branding • Product Design</p>
           </motion.div>
 
           <nav className="flex flex-wrap justify-center gap-6" aria-label="Footer navigation">

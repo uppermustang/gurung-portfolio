@@ -28,9 +28,9 @@ export default function About() {
               About Me
             </h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Creative Director with expertise in website design, branding, and product design. 
+              Creative Lead with expertise in website design, branding, and product design. 
               I craft digital solutions that connect brands with audiences through creativity, 
-              strategy, and precision – as your personal Creative Director.
+              strategy, and precision – as your personal Creative Lead.
             </p>
             <p className="text-gray-300 mb-6 leading-relaxed">
               With over a decade of experience spanning UX/UI design, graphic design, and web development, 

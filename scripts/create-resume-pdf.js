@@ -81,7 +81,7 @@ async function createResumePdf() {
   });
   state.y -= 24;
 
-  state.page.drawText('Creative Director | Website Design • Branding • Product Design', {
+  state.page.drawText('Creative Lead | Website Design • Branding • Product Design', {
     x: MARGIN_LEFT,
     y: state.y,
     size: 10,
@@ -114,7 +114,7 @@ async function createResumePdf() {
   state.y -= LINE_HEIGHT + 5;
 
   const summaryParagraphs = [
-    'Creative Director with 10+ years driving digital solutions in website design, branding, and product design. I craft user-centered experiences that connect brands with audiences through clear strategy, visual storytelling, and attention to detail.',
+    'Creative Lead with 10+ years driving digital solutions in website design, branding, and product design. I craft user-centered experiences that connect brands with audiences through clear strategy, visual storytelling, and attention to detail.',
     'I integrate AI into creative and technical workflows for innovative, efficient, and user-centric outcomes. Expertise in prompt engineering for high-quality design assets and content ideation; implementation of AI APIs (Anthropic Claude, OpenAI, Google Cloud AI, Adobe Sensei) across web design and product development—optimizing automated layout generation, image enhancement, and dynamic branding. I apply ethical AI practices with focus on accessibility, inclusivity, privacy, and bias mitigation.',
     'Core delivery: Custom web development, Shopify, WordPress, UI/UX design, Figma and Adobe Suite—delivering end-to-end projects from concept to launch. Based in Denver, Colorado. Serving clients across the United States. Available for full-time, contract, and freelance opportunities.',
   ];
@@ -136,7 +136,7 @@ async function createResumePdf() {
 
   const experiences = [
     {
-      title: 'Creative Director',
+      title: 'Creative Lead',
       company: 'Yartung LLC',
       location: 'Denver, CO',
       period: 'Oct 2023 – Present',
